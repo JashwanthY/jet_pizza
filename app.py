@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 import os
 from utils import get_answer, text_to_speech, autoplay_audio, speech_to_text
@@ -44,7 +46,7 @@ data_url1 = image_to_data_url("data/img1.png")
 st.markdown(
     f"""
     <div style="display: flex; align-items: center; justify-content: center;">
-        <img src="{data_url}" width="150" style="margin-right: 10px;">
+        <img src="{data_url}" width="50" style="margin-right: 10px;">
         <h1 style="margin: 0;">Restaurant Insights</h1>
     </div>
     """,
